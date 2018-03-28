@@ -9,7 +9,7 @@ Array.prototype.filter = function(cb) {
         };
     }
     return result;
-}
+};
 
 
 var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
