@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e098f11e-16fd-4b30-85ef-643c8fd5d57f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/MyMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/myFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/reduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/reduceRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/sum_every.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,11 +59,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myFilter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myFilter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/myFilter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reduce.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/reduce.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reduceRight.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/reduceRight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sum_every.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/sum_every.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -92,6 +123,10 @@
         <option value="$PROJECT_DIR$/app/js/Inheritance-JS.js" />
         <option value="$PROJECT_DIR$/app/js/MyMap.js" />
         <option value="$PROJECT_DIR$/app/js/myFilter.js" />
+        <option value="$PROJECT_DIR$/app/js/reduce.js" />
+        <option value="$PROJECT_DIR$/app/js/reduceRight.js" />
+        <option value="$PROJECT_DIR$/app/js/sum.js" />
+        <option value="$PROJECT_DIR$/app/js/sum_every.js" />
       </list>
     </option>
   </component>
@@ -175,23 +210,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.myFilter.js">
-    <configuration name="Inheritance-JS.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Inheritance-JS.js" working-dir="$PROJECT_DIR$/app/js" />
+  <component name="RunManager" selected="Node.js.sum_every.js">
     <configuration name="MyMap.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="MyMap.js" working-dir="$PROJECT_DIR$/app/js" />
-    <configuration name="forEach.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="forEach.js" working-dir="$PROJECT_DIR$/app/js" />
     <configuration name="myFilter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="myFilter.js" working-dir="$PROJECT_DIR$/app/js" />
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.forEach.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Inheritance-JS.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.MyMap.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.myFilter.js" />
+    <configuration name="reduceRight.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reduceRight.js" working-dir="$PROJECT_DIR$/app/js" />
+    <configuration name="reduce.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reduce.js" working-dir="$PROJECT_DIR$/app/js" />
+    <configuration name="sum_every.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sum_every.js" working-dir="$PROJECT_DIR$/app/js" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.MyMap.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.myFilter.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.reduce.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.reduceRight.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.sum_every.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.myFilter.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.MyMap.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Inheritance-JS.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.forEach.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.sum_every.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.reduceRight.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.reduce.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.myFilter.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.MyMap.js" />
       </list>
     </recent_temporary>
   </component>
@@ -206,27 +244,26 @@
       <option name="presentableId" value="Default" />
       <updated>1521778331587</updated>
       <workItem from="1521778333258" duration="3310000" />
-      <workItem from="1522268611263" duration="2131000" />
+      <workItem from="1522268611263" duration="4184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5441000" />
+    <option name="totallyTimeSpent" value="7494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14466546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3317757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3317757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -304,10 +341,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/reduceRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/reduce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/myFilter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/sum_every.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
