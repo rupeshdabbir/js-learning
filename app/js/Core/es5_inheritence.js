@@ -8,7 +8,7 @@ User.prototype.getName = function() {
 
 function Siddharth(name) {
     this.name = name;
-    Object.getPrototypeOf(Siddharth.prototype).constructor.call(name);
+    Object.getPrototypeOf(Siddharth.prototype).constructor.call(this,name);
 }
 
 Siddharth.prototype = Object.create(User.prototype);
