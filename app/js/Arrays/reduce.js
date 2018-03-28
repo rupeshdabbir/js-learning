@@ -8,7 +8,7 @@ Array.prototype.reduce = function(cb, init) {
         result = cb(result,Object(this)[i], i, this);
     }
     return result;
-}
+} 
 
 const array1 = [1, 2, 3, 4];
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
