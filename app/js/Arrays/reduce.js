@@ -5,7 +5,7 @@ Array.prototype.reduce = function(cb, init) {
     let result = init ? init : Object(this)[0];
     let index = init ? 0 : 1;
     for(let i = index; i< Object(this).length; i++) {
-        result = cb(result, Object(this)[i]);
+        result = cb(result,Object(this)[i], i, this);
     }
     return result;
 }
